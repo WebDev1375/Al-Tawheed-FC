@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+body {
+    margin: 0;
+    font-family: 'poppins', 'Times New Roman';
+    background: url("1000_F_178648263_MPQabv2qjGxI0LJ5pTn1Vrd1GGmP9NeM.jpg");
+    color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(#fa8c05, #fab505);
+    color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+
+
+nav {
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #fa8c05;
+}
+
+.hero {
+    display: flex;
+    margin: 0px;
+    padding: 5vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 73vh;
+    background: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 300vh,200vh;
+        
+   
+}
+
+#span {
+    font-size: 4rem;
+    animation: fadeIn 2s ease-in-out;
+    color: #ff9900;
+    font-weight: bold;
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.content {
+    padding: 2rem;
+    text-align: center;
+}
+
+.content h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ffcc00;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    background: linear-gradient(45deg,#fa8c05e2, #fab505d7 );
+    font-size: 5vh;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.card h4 {
+    margin-bottom: 0.5rem;
+    color: #000;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+footer p a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+section img {
+    width: 100px;
+}
+.log img {
+    width: 50px;
+}
+#contact {
+    background-color: #fa8c05ef;
+}
+#about {
+    background-color: #363636fa;
+    margin: 2vh;
+    color: aliceblue;
+    border-radius: 10px;
+}
+a {
+    color: rgb(182, 219, 246);
+}
+#team {
+    background: linear-gradient(45deg, rgba(17, 17, 17, 0.904), rgba(31, 30, 30, 0.941));
+    margin: 3vh;
+    border-radius: 3vh;
+}
+#matches{
+    background: linear-gradient(rgba(47, 45, 44, 0.93), rgba(226, 100, 37,1));
+}
+#btn {
+    border: 3px solid  orange;
+    background:  linear-gradient(45deg, rgba(58, 57, 57, 0.904), rgba(63, 61, 61, 0.941));
+    font-size:3vh;
+    padding: 3vh;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
